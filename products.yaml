@@ -1,0 +1,47 @@
+# SQL source (SQLite sample DB, set via SOURCE_DB_URL) -> MySQL full load (atomic replace).
+pipeline:
+  name: product_etl
+  description: Active products from a source database
+
+  source:
+    type: sql
+    connection_env: SOURCE_DB_URL
+    query: >
+      SELECT product_id, product_name, category, price, stock_qty, supplier_email, last_updated
+      FROM products
+      WHERE is_active = 1
+
+  target:
+    type: mysql
+    table: products
+
+  transformations:
+    standardize_columns: true
+    trim_strings: true
+    remove_duplicates: true
+    type_conversions:
+      product_id: integer
+      price: float
+      stock_qty: integer
+    date_columns: [last_updated]
+    missing_values:
+      strategies:
+        stock_qty: median
+    normalize:
+      lowercase: [supplier_email]
+      titlecase: [category]
+
+  quality_checks:
+    primary_key: product_id
+    required_columns: [product_id, product_name, price]
+    column_types:
+      price: float
+      stock_qty: integer
+    range_checks:
+      price: {min: 0.01, max: 100000}
+      stock_qty: {min: 0}
+    email_columns: [supplier_email]
+
+  load:
+    mode: full
+    batch_size: 50

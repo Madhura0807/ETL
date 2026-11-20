@@ -1,0 +1,52 @@
+# Nested JSON source -> MySQL incremental upsert (watermark = order_date).
+# Run AFTER customers: orders.customer_id is checked against the loaded customers table.
+pipeline:
+  name: order_etl
+  description: Orders from a nested JSON export
+
+  source:
+    type: json
+    path: data/raw/orders.json
+    record_path: orders
+    flatten: true
+
+  target:
+    type: mysql
+    table: orders
+
+  transformations:
+    standardize_columns: true
+    trim_strings: true
+    remove_duplicates: true
+    type_conversions:
+      order_id: integer
+      customer_id: integer
+      quantity: integer
+      unit_price: float
+    date_columns: [order_date]
+    normalize:
+      lowercase: [status]
+
+  quality_checks:
+    primary_key: order_id
+    required_columns: [order_id, customer_id, order_date]
+    column_types:
+      quantity: integer
+      unit_price: float
+    range_checks:
+      quantity: {min: 1, max: 100}
+      unit_price: {min: 0.01}
+    date_checks:
+      order_date: {min: "2020-01-01", max: today}
+    referential_checks:
+      - column: customer_id
+        reference_table: customers
+        reference_column: customer_id
+    custom_rules:
+      - name: positive_order_total
+        expression: "quantity * unit_price > 0"
+
+  load:
+    mode: upsert
+    batch_size: 100
+    watermark_column: order_date

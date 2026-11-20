@@ -1,0 +1,124 @@
+Customer ID,Customer Name,Email,Phone,Age,Country,Signup Date,Loyalty Tier
+1,Liam Patil,liam.patil1@example.com,,32,us,2023-02-17,standard
+2,Liam Smith,liam.smith2@example.com,,19,in,2020-03-23,silver
+3,Arjun Brown,arjun.brown3@example.com,,59,US,2022-01-21,
+4,Isha Gupta,isha.gupta4@example.com,+91-9810872248,28,US,2021-05-15,gold
+5,Kabir Mehta,kabir.mehta5@example.com,+91-9855176955,42,in,2021-01-05,gold
+6,Sara Khan,sara.khan6@example.com,+91-9871662963,42,in,2022-02-04,gold
+7,Liam Brown,liam.brown7@example.com,+91-9858537831,63,in,08/01/2021,standard
+8,Liam Iyer,liam.iyer8@example.com,+91-9820709497,73,in,2021-02-17,gold
+9,Diya Nair,diya.nair9@example.com,+91-9857683626,35,US,2022-10-31,standard
+10,Sara Mehta,not-an-email,+91-9842857966,42,gb,2022-08-03,
+11,Isha Nair,isha.nair11@example.com,+91-9817507864,20,gb,2021-04-01,gold
+12,Meera Iyer,meera.iyer12@example.com,+91-9886125617,38,us,2022-09-04,
+13,Vivaan Gupta,vivaan.gupta13@example.com,,65,IN,2022-01-08,gold
+14,Emma Brown,emma.brown14@example.com,+91-9888320463,32,us,15/01/2021,
+15,  Diya Patil  ,diya.patil15@example.com,+91-9824716857,28,US,2021-05-14,
+16,Meera Singh,meera.singh16@example.com,+91-9872820592,53,in,2022-10-25,standard
+17,Liam Smith,liam.smith17@example.com,+91-9896028436,36,de,2019-11-20,
+18,Aarav Khan,aarav.khan18@example.com,+91-9833978249,24,US,2020-09-03,
+19,Sara Iyer,sara.iyer19@example.com,+91-9831682744,67,IN,2019-01-02,
+20,Ananya Gupta,missing-at-sign.example.com,,74,gb,2020-05-05,standard
+21,Isha Brown,isha.brown21@example.com,+91-9821496211,70,in,22/01/2021,
+22,Rohan Mehta,rohan.mehta22@example.com,+91-9883793389,51,IN,2021-05-16,silver
+23,Arjun Iyer,arjun.iyer23@example.com,+91-9863551839,59,gb,2021-06-16,
+24,Diya Patil,diya.patil24@example.com,+91-9818593410,55,IN,2020-04-16,
+25,Isha Sharma,isha.sharma25@example.com,,32,in,2019-03-06,gold
+26,Meera Smith,meera.smith26@example.com,+91-9899788677,52,us,2023-01-21,
+27,Sara Gupta,sara.gupta27@example.com,+91-9873481353,30,in,2019-07-18,
+28,Ananya Singh,ananya.singh28@example.com,+91-9817270733,59,in,29/01/2021,standard
+29,Vivaan Nair,vivaan.nair29@example.com,+91-9824665841,30,IN,2021-07-07,silver
+30,  Vivaan Mehta  ,vivaan.mehta30@example.com,+91-9843528453,17,de,2023-07-13,
+31,Meera Sharma,meera.sharma31@example.com,+91-9882556484,23,us,2019-12-07,
+32,Diya Gupta,diya.gupta32@example.com,+91-9863826716,28,de,2019-01-05,
+33,Kabir Gupta,kabir.gupta33@example.com,+91-9884593961,49,us,2020-01-24,gold
+34,Isha Sharma,isha.sharma34@example.com,+91-9882772208,,gb,2019-04-28,standard
+35,Sara Gupta,sara.gupta35@example.com,+91-9881286543,50,in,05/02/2021,silver
+36,Meera Brown,meera.brown36@example.com,,43,in,2022-03-12,silver
+37,Sara Brown,sara.brown37@example.com,,,US,2022-04-10,
+38,Arjun Nair,arjun.nair38@example.com,+91-9837415205,38,us,2020-06-27,
+39,Rohan Khan,rohan.khan39@example.com,+91-9819736572,,IN,2022-02-27,standard
+40,Meera Smith,meera.smith40@example.com,+91-9845594597,140,in,2020-05-15,gold
+41,Kabir Mehta,kabir.mehta41@example.com,+91-9882909480,57,US,2021-12-19,standard
+42,Liam Smith,liam.smith42@example.com,+91-9899038526,74,us,12/02/2021,gold
+43,Meera Patil,meera.patil43@example.com,+91-9830863865,56,us,2023-01-09,gold
+44,Isha Khan,isha.khan44@example.com,+91-9843704923,72,in,2019-07-09,
+45,  Kabir Sharma  ,kabir.sharma45@example.com,,58,gb,2019-11-27,
+46,Arjun Singh,arjun.singh46@example.com,+91-9825015458,,US,2019-11-02,
+47,Aarav Nair,aarav.nair47@example.com,+91-9829876811,20,gb,2021-01-16,standard
+48,Ananya Iyer,ananya.iyer48@example.com,+91-9899514287,67,IN,2021-04-12,
+49,Emma Mehta,emma.mehta49@example.com,+91-9841774346,69,us,19/02/2021,
+50,,aarav.mehta50@example.com,+91-9854585178,44,US,2023-02-14,silver
+51,Kabir Mehta,kabir.mehta51@example.com,+91-9824508349,20,de,2020-03-31,silver
+52,Diya Nair,diya.nair52@example.com,+91-9840547349,60,us,2021-03-27,gold
+53,Kabir Patil,kabir.patil53@example.com,+91-9847463522,50,de,2022-10-23,
+54,Ananya Sharma,ananya.sharma54@example.com,,29,IN,2020-06-27,standard
+55,Meera Brown,meera.brown55@example.com,+91-9852101056,50,in,2021-02-27,
+56,Isha Khan,isha.khan56@example.com,,51,IN,26/02/2021,silver
+57,Ananya Singh,ananya.singh57@example.com,,39,IN,2020-10-04,standard
+58,Emma Khan,emma.khan58@example.com,+91-9899508850,43,US,2020-08-28,
+59,Rohan Iyer,rohan.iyer59@example.com,+91-9860888017,75,us,2022-06-14,
+60,  Kabir Singh  ,kabir.singh60@example.com,+91-9810054484,31,de,2099-01-01,
+61,Sara Nair,sara.nair61@example.com,+91-9869345683,50,de,2023-06-14,silver
+62,Liam Patil,liam.patil62@example.com,+91-9899100953,39,in,2023-08-04,silver
+63,Liam Khan,liam.khan63@example.com,+91-9836726767,20,us,05/03/2021,
+64,Sara Patil,sara.patil64@example.com,+91-9894525678,63,US,2021-02-25,
+65,Vivaan Iyer,vivaan.iyer65@example.com,,75,in,2023-05-14,
+66,Isha Mehta,isha.mehta66@example.com,+91-9879519112,53,us,2019-09-06,
+67,Rohan Gupta,rohan.gupta67@example.com,+91-9885017682,66,de,2022-06-08,
+68,Vivaan Smith,vivaan.smith68@example.com,+91-9831361812,48,de,2020-06-14,silver
+69,Liam Khan,liam.khan69@example.com,+91-9879967676,33,gb,2021-06-19,standard
+70,Emma Khan,emma.khan70@example.com,+91-9855076693,52,in,31-31-2020,silver
+71,Rohan Iyer,rohan.iyer71@example.com,+91-9830509175,22,de,2021-04-14,gold
+72,Arjun Gupta,arjun.gupta72@example.com,+91-9837760841,42,IN,2022-11-25,standard
+73,Sara Singh,sara.singh73@example.com,+91-9857212267,42,de,2022-01-07,
+74,Sara Iyer,sara.iyer74@example.com,+91-9846632757,19,de,2020-11-19,
+75,  Emma Mehta  ,emma.mehta75@example.com,+91-9827129912,52,in,2021-03-17,
+76,Sara Sharma,sara.sharma76@example.com,,73,de,2020-01-08,standard
+77,Kabir Singh,kabir.singh77@example.com,+91-9871028710,66,de,19/03/2021,gold
+78,Vivaan Khan,vivaan.khan78@example.com,+91-9873123515,,IN,2019-04-17,gold
+79,Isha Patil,isha.patil79@example.com,+91-9897477029,,in,2020-05-21,silver
+80,Aarav Brown,aarav.brown80@example.com,+91-9826941092,25,IN,2020-03-22,
+81,Emma Khan,emma.khan81@example.com,+91-9832520277,65,US,2019-08-23,silver
+82,Kabir Patil,kabir.patil82@example.com,+91-9851870192,42,de,2023-01-04,silver
+83,Meera Brown,meera.brown83@example.com,+91-9894187049,62,gb,2022-11-02,
+84,Meera Brown,meera.brown84@example.com,+91-9856600900,60,gb,26/03/2021,standard
+85,Arjun Nair,arjun.nair85@example.com,,49,in,2021-06-06,gold
+86,Liam Gupta,liam.gupta86@example.com,+91-9868450095,51,US,2020-07-07,
+87,Arjun Gupta,arjun.gupta87@example.com,+91-9889520597,72,us,2019-06-27,gold
+88,Diya Iyer,diya.iyer88@example.com,+91-9886483924,42,gb,2019-02-28,
+89,Ananya Mehta,ananya.mehta89@example.com,+91-9857623800,39,gb,2022-05-05,gold
+90,  Arjun Sharma  ,arjun.sharma90@example.com,+91-9835643159,,US,2021-04-12,
+91,Arjun Iyer,arjun.iyer91@example.com,+91-9896691619,46,in,02/04/2021,standard
+92,Kabir Iyer,kabir.iyer92@example.com,+91-9842655866,55,gb,2021-08-27,
+93,Arjun Nair,arjun.nair93@example.com,+91-9883871890,62,de,2020-07-08,gold
+94,Kabir Iyer,kabir.iyer94@example.com,,25,US,2022-01-02,silver
+95,Isha Iyer,isha.iyer95@example.com,+91-9847111151,66,IN,2022-05-07,gold
+96,Meera Iyer,meera.iyer96@example.com,+91-9858436637,18,US,2021-12-29,silver
+97,Kabir Sharma,kabir.sharma97@example.com,+91-9884270583,26,US,2023-03-22,
+98,Meera Sharma,meera.sharma98@example.com,+91-9873001391,39,us,09/04/2021,standard
+99,Kabir Gupta,kabir.gupta99@example.com,,,de,2019-06-01,
+100,Liam Sharma,liam.sharma100@example.com,+91-9885543051,23,us,2019-08-31,
+101,Vivaan Brown,vivaan.brown101@example.com,+91-9893002706,51,de,2021-07-11,
+102,Kabir Brown,kabir.brown102@example.com,+91-9850987442,21,IN,2023-02-24,standard
+103,Isha Iyer,isha.iyer103@example.com,+91-9820896797,29,IN,2019-06-03,silver
+104,Aarav Singh,aarav.singh104@example.com,+91-9889699989,20,us,2020-08-13,gold
+105,  Emma Gupta  ,emma.gupta105@example.com,,34,US,16/04/2021,
+106,Liam Iyer,liam.iyer106@example.com,+91-9883089925,27,gb,2023-08-20,silver
+107,Meera Sharma,meera.sharma107@example.com,+91-9851286958,70,IN,2020-08-14,
+108,Meera Gupta,meera.gupta108@example.com,+91-9864023778,50,IN,2021-10-08,
+109,Meera Brown,meera.brown109@example.com,,38,IN,2020-05-27,standard
+110,Meera Iyer,meera.iyer110@example.com,+91-9887201917,19,US,2023-08-10,gold
+111,Sara Sharma,sara.sharma111@example.com,+91-9833513701,59,de,2020-07-23,silver
+112,Sara Singh,sara.singh112@example.com,+91-9875998319,48,gb,23/04/2021,
+113,Ananya Nair,ananya.nair113@example.com,+91-9831585546,62,de,2020-08-13,
+114,Arjun Sharma,arjun.sharma114@example.com,+91-9852213778,25,de,2021-11-19,standard
+115,Liam Smith,liam.smith115@example.com,+91-9817275149,41,IN,2023-03-30,
+116,Liam Gupta,liam.gupta116@example.com,+91-9837321124,26,gb,2021-06-16,
+117,Meera Sharma,meera.sharma117@example.com,+91-9891721371,63,us,2020-09-28,
+118,Aarav Smith,aarav.smith118@example.com,+91-9840158811,25,de,2019-08-29,silver
+119,Diya Khan,diya.khan119@example.com,+91-9846698468,48,de,30/04/2021,silver
+120,  Diya Smith  ,diya.smith120@example.com,,56,IN,2023-03-09,silver
+5,Kabir Mehta,kabir.mehta5@example.com,+91-9855176955,42,in,2021-01-05,gold
+15,  Diya Patil  ,different.email@example.com,+91-9824716857,28,US,2021-05-14,
+999,Broken Row,broken@example.com,1,2,3,4,5,6,7,8

@@ -1,0 +1,55 @@
+# CSV source -> MySQL upsert. Data is SYNTHETIC (scripts/generate_sample_data.py).
+pipeline:
+  name: customer_etl
+  description: Customer master data from a CSV export
+
+  source:
+    type: csv
+    path: data/raw/customers.csv
+
+  target:
+    type: mysql
+    table: customers
+
+  transformations:
+    standardize_columns: true
+    trim_strings: true
+    remove_duplicates: true
+    type_conversions:
+      customer_id: integer
+      age: integer
+    date_columns: [signup_date]
+    missing_values:
+      fill:
+        loyalty_tier: standard
+    normalize:
+      lowercase: [email]
+      uppercase: [country]
+      titlecase: [customer_name]
+
+  quality_checks:
+    primary_key: customer_id
+    primary_key_policy: keep_first
+    required_columns: [customer_id, customer_name, email]
+    null_threshold: 0.30
+    null_threshold_columns: [phone, age]
+    null_threshold_action: fail
+    column_types:
+      customer_id: integer
+      age: integer
+    range_checks:
+      age: {min: 18, max: 100}
+    email_columns: [email]
+    date_checks:
+      signup_date: {min: "2015-01-01", max: today}
+
+  schema_drift:
+    policies:
+      column_added: exclude
+      column_removed: block
+      type_changed: block
+      nullable_changed: allow
+
+  load:
+    mode: upsert
+    batch_size: 50

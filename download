@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+logs/*
+!logs/.gitkeep
+reports/*
+!reports/.gitkeep
+schemas/*
+!schemas/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/quarantine/*
+!data/quarantine/.gitkeep
+data/raw/source.db

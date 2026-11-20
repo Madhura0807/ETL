@@ -1,0 +1,178 @@
+{
+  "pipeline_name": "customer_etl",
+  "execution_id": "0b41fad2-9583-4a76-a624-2f0d6ea698c0",
+  "start_time": "2026-11-20T10:37:59.676229",
+  "end_time": "2026-11-20T10:37:59.801093",
+  "duration_seconds": 0.125,
+  "source_type": "csv",
+  "status": "SUCCESS",
+  "counts": {
+    "extracted": 122,
+    "transformed": 121,
+    "valid": 113,
+    "invalid": 9,
+    "loaded": 113,
+    "failed_batches": 0
+  },
+  "schema_drift_status": "BASELINE_CREATED",
+  "schema_version": 1,
+  "load": {
+    "mode": "upsert",
+    "table": "customers",
+    "rows_attempted": 113,
+    "aborted": false,
+    "batches": [
+      {
+        "batch_number": 1,
+        "row_count": 50,
+        "status": "SUCCESS",
+        "attempts": 1,
+        "error": null
+      },
+      {
+        "batch_number": 2,
+        "row_count": 50,
+        "status": "SUCCESS",
+        "attempts": 1,
+        "error": null
+      },
+      {
+        "batch_number": 3,
+        "row_count": 13,
+        "status": "SUCCESS",
+        "attempts": 1,
+        "error": null
+      }
+    ]
+  },
+  "quality_results": [
+    {
+      "check_name": "required_columns_present",
+      "level": "dataset",
+      "total_checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "failure_pct": 0.0,
+      "unit": "columns",
+      "status": "PASSED"
+    },
+    {
+      "check_name": "null_check_required",
+      "level": "row",
+      "total_checked": 121,
+      "passed": 120,
+      "failed": 1,
+      "failure_pct": 0.83,
+      "unit": "records",
+      "status": "FAILED"
+    },
+    {
+      "check_name": "primary_key_unique",
+      "level": "row",
+      "total_checked": 121,
+      "passed": 120,
+      "failed": 1,
+      "failure_pct": 0.83,
+      "unit": "records",
+      "status": "FAILED"
+    },
+    {
+      "check_name": "data_type_validation",
+      "level": "row",
+      "total_checked": 121,
+      "passed": 120,
+      "failed": 1,
+      "failure_pct": 0.83,
+      "unit": "records",
+      "status": "FAILED"
+    },
+    {
+      "check_name": "null_threshold",
+      "level": "dataset",
+      "total_checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "failure_pct": 0.0,
+      "unit": "columns",
+      "status": "PASSED"
+    },
+    {
+      "check_name": "range_check:age",
+      "level": "row",
+      "total_checked": 121,
+      "passed": 119,
+      "failed": 2,
+      "failure_pct": 1.65,
+      "unit": "records",
+      "status": "FAILED"
+    },
+    {
+      "check_name": "email_format:email",
+      "level": "row",
+      "total_checked": 121,
+      "passed": 119,
+      "failed": 2,
+      "failure_pct": 1.65,
+      "unit": "records",
+      "status": "FAILED"
+    },
+    {
+      "check_name": "date_check:signup_date",
+      "level": "row",
+      "total_checked": 121,
+      "passed": 120,
+      "failed": 1,
+      "failure_pct": 0.83,
+      "unit": "records",
+      "status": "FAILED"
+    }
+  ],
+  "schema_drift": {
+    "status": "BASELINE_CREATED",
+    "decision": "proceed",
+    "previous_version": null,
+    "changes": [],
+    "exclude_columns": [],
+    "add_columns": [],
+    "blocked_reasons": [],
+    "detected_at": "2026-11-20T10:37:59.772394",
+    "summary": {
+      "INFO": 0,
+      "WARNING": 0,
+      "CRITICAL": 0
+    }
+  },
+  "warnings": [],
+  "extraction": {
+    "source_type": "csv",
+    "extracted_at": "2026-11-20T10:37:59.721530",
+    "row_count": 122,
+    "column_count": 8,
+    "rejected_count": 1,
+    "path": "data/raw/customers.csv",
+    "file_size_bytes": 9286
+  },
+  "transform_stats": {
+    "input_rows": 122,
+    "steps": [
+      "standardize_columns",
+      "trim_strings",
+      "type_conversions",
+      "missing_values",
+      "normalize",
+      "remove_duplicates"
+    ],
+    "conversion_failure_rows": 1,
+    "duplicates_removed": 1,
+    "output_rows": 121
+  },
+  "incremental": null,
+  "artifacts": {
+    "log_file": "logs/customer_etl_0b41fad2.log",
+    "extraction_quarantine": "data/quarantine/customer_etl_0b41fad2_extraction.csv",
+    "validation_quarantine": "data/quarantine/customer_etl_0b41fad2_validation.csv",
+    "processed_file": "data/processed/customer_etl_0b41fad2.csv",
+    "report_file": "reports/customer_etl_0b41fad2.json"
+  },
+  "error": null
+}

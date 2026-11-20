@@ -1,0 +1,24 @@
+# Global settings. Pipelines may override retry/batch_size. Paths are relative to the project root.
+paths:
+  schemas: schemas
+  reports: reports
+  logs: logs
+  quarantine: data/quarantine
+  processed: data/processed
+
+logging:
+  level: INFO
+  console: true
+
+database:
+  url_env: ETL_TARGET_URL      # if unset, MYSQL_HOST/PORT/USER/PASSWORD/DATABASE are used (see .env.example)
+
+quarantine:
+  max_db_rows: 10000           # cap per stage per run in etl_quarantined_records (full set always in CSV)
+
+defaults:
+  batch_size: 1000
+  retry:
+    max_attempts: 3
+    backoff_seconds: 1.0
+    backoff_factor: 2.0

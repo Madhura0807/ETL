@@ -1,0 +1,4518 @@
+{
+  "orders": [
+    {
+      "order_id": 1001,
+      "customer_id": 111,
+      "order_date": "2024-01-01",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 387.47,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1002,
+      "customer_id": 35,
+      "order_date": "2024-01-02",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 364.4,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1003,
+      "customer_id": 69,
+      "order_date": "2024-01-02",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 169.56,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1004,
+      "customer_id": 112,
+      "order_date": "2024-01-03",
+      "status": "PENDING",
+      "quantity": 4,
+      "unit_price": 288.04,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1005,
+      "customer_id": 41,
+      "order_date": "2024-01-03",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 196.11,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1006,
+      "customer_id": 17,
+      "order_date": "2024-01-04",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 437.72,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1007,
+      "customer_id": 117,
+      "order_date": "2024-01-04",
+      "status": " Cancelled ",
+      "quantity": 1,
+      "unit_price": 362.61,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1008,
+      "customer_id": 10,
+      "order_date": "2024-01-05",
+      "status": " Cancelled ",
+      "quantity": 5,
+      "unit_price": 172.59,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1009,
+      "customer_id": 110,
+      "order_date": "2024-01-05",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 193.1,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1010,
+      "customer_id": 114,
+      "order_date": "2024-01-06",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 22.77,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1011,
+      "customer_id": 9999,
+      "order_date": "2024-01-06",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 374.65,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1012,
+      "customer_id": 91,
+      "order_date": "2024-01-07",
+      "status": "Shipped",
+      "quantity": 8,
+      "unit_price": 87.35,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1013,
+      "customer_id": 42,
+      "order_date": "2024-01-07",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 182.44,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1014,
+      "customer_id": 68,
+      "order_date": "2024-01-08",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 342.49,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1015,
+      "customer_id": 11,
+      "order_date": "2024-01-08",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 343.15,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1016,
+      "customer_id": 30,
+      "order_date": "2024-01-09",
+      "status": " Cancelled ",
+      "quantity": 5,
+      "unit_price": 232.49,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1017,
+      "customer_id": 87,
+      "order_date": "2024-01-09",
+      "status": "PENDING",
+      "quantity": 2,
+      "unit_price": 223.66,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1018,
+      "customer_id": 82,
+      "order_date": "2024-01-10",
+      "status": " Cancelled ",
+      "quantity": 5,
+      "unit_price": 231.13,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1019,
+      "customer_id": 110,
+      "order_date": "2024-01-10",
+      "status": " Cancelled ",
+      "quantity": 2,
+      "unit_price": 122.42,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1020,
+      "customer_id": 90,
+      "order_date": "2024-01-11",
+      "status": "delivered",
+      "quantity": 1,
+      "unit_price": 489.08,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1021,
+      "customer_id": 73,
+      "order_date": "2024-01-11",
+      "status": "Shipped",
+      "quantity": 0,
+      "unit_price": 373.86,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1022,
+      "customer_id": 103,
+      "order_date": "2024-01-12",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 320.13,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1023,
+      "customer_id": 99,
+      "order_date": "2024-01-12",
+      "status": "PENDING",
+      "quantity": 2,
+      "unit_price": 452.18,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1024,
+      "customer_id": 5,
+      "order_date": "2024-01-13",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 49.62,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1025,
+      "customer_id": 54,
+      "order_date": "2024-01-13",
+      "status": "PENDING",
+      "quantity": 4,
+      "unit_price": 70.42,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1026,
+      "customer_id": 117,
+      "order_date": "2024-01-14",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 132.2,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1027,
+      "customer_id": 112,
+      "order_date": "2024-01-14",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 236.82,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1028,
+      "customer_id": 111,
+      "order_date": "2024-01-15",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 186.06,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1029,
+      "customer_id": 69,
+      "order_date": "2024-01-15",
+      "status": "Shipped",
+      "quantity": 8,
+      "unit_price": 187.45,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1030,
+      "customer_id": 106,
+      "order_date": "2024-01-16",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 339.04,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1031,
+      "customer_id": 114,
+      "order_date": "2024-01-16",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": -5.0,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1032,
+      "customer_id": 117,
+      "order_date": "2024-01-17",
+      "status": "delivered",
+      "quantity": 7,
+      "unit_price": 62.75,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1033,
+      "customer_id": 64,
+      "order_date": "2024-01-17",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 121.23,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1034,
+      "customer_id": 48,
+      "order_date": "2024-01-18",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 372.42,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1035,
+      "customer_id": 13,
+      "order_date": "2024-01-18",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 207.02,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1036,
+      "customer_id": 48,
+      "order_date": "2024-01-19",
+      "status": "PENDING",
+      "quantity": 8,
+      "unit_price": 225.12,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1037,
+      "customer_id": 88,
+      "order_date": "2024-01-19",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 451.34,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1038,
+      "customer_id": 36,
+      "order_date": "2024-01-20",
+      "status": "PENDING",
+      "quantity": 2,
+      "unit_price": 474.76,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1039,
+      "customer_id": 28,
+      "order_date": "2024-01-20",
+      "status": "Shipped",
+      "quantity": 1,
+      "unit_price": 394.46,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1040,
+      "customer_id": 27,
+      "order_date": "2024-01-21",
+      "status": "Shipped",
+      "quantity": 9,
+      "unit_price": 107.54,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1041,
+      "customer_id": 100,
+      "order_date": "2024-01-21",
+      "status": "PENDING",
+      "unit_price": 6.4,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1042,
+      "customer_id": 33,
+      "order_date": "2024-01-22",
+      "status": "PENDING",
+      "quantity": 2,
+      "unit_price": 332.22,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1043,
+      "customer_id": 46,
+      "order_date": "2024-01-22",
+      "status": "PENDING",
+      "quantity": 10,
+      "unit_price": 165.27,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1044,
+      "customer_id": 17,
+      "order_date": "2024-01-23",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 61.26,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1045,
+      "customer_id": 100,
+      "order_date": "2024-01-23",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 298.86,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1046,
+      "customer_id": 79,
+      "order_date": "2024-01-24",
+      "status": "Shipped",
+      "quantity": 9,
+      "unit_price": 154.31,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1047,
+      "customer_id": 109,
+      "order_date": "2024-01-24",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 344.62,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1048,
+      "customer_id": 10,
+      "order_date": "2024-01-25",
+      "status": "Shipped",
+      "quantity": 6,
+      "unit_price": 306.11,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1049,
+      "customer_id": 80,
+      "order_date": "2024-01-25",
+      "status": "delivered",
+      "quantity": 7,
+      "unit_price": 497.34,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1050,
+      "customer_id": 78,
+      "order_date": "2024-01-26",
+      "status": " Cancelled ",
+      "quantity": 2,
+      "unit_price": 397.58,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1051,
+      "customer_id": 113,
+      "order_date": "not a date",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 228.52,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1052,
+      "customer_id": 106,
+      "order_date": "2024-01-27",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 210.91,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1053,
+      "customer_id": 41,
+      "order_date": "2024-01-27",
+      "status": "delivered",
+      "quantity": 6,
+      "unit_price": 477.03,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1054,
+      "customer_id": 107,
+      "order_date": "2024-01-28",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 218.78,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1055,
+      "customer_id": 8,
+      "order_date": "2024-01-28",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 208.35,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1056,
+      "customer_id": 37,
+      "order_date": "2024-01-29",
+      "status": "delivered",
+      "quantity": 6,
+      "unit_price": 56.28,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1057,
+      "customer_id": 62,
+      "order_date": "2024-01-29",
+      "status": "PENDING",
+      "quantity": 2,
+      "unit_price": 178.31,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1058,
+      "customer_id": 74,
+      "order_date": "2024-01-30",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 423.35,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1059,
+      "customer_id": 107,
+      "order_date": "2024-01-30",
+      "status": "delivered",
+      "quantity": 1,
+      "unit_price": 94.31,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1060,
+      "customer_id": 1,
+      "order_date": "2024-01-31",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 285.33,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1061,
+      "customer_id": 95,
+      "order_date": "2024-01-31",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 374.33,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1062,
+      "customer_id": 59,
+      "order_date": "2024-02-01",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 188.18,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1063,
+      "customer_id": 11,
+      "order_date": "2024-02-01",
+      "status": "Shipped",
+      "quantity": 3,
+      "unit_price": 82.92,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1064,
+      "customer_id": 35,
+      "order_date": "2024-02-02",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 245.4,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1065,
+      "customer_id": 28,
+      "order_date": "2024-02-02",
+      "status": "Shipped",
+      "quantity": 6,
+      "unit_price": 217.81,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1066,
+      "customer_id": 76,
+      "order_date": "2024-02-03",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 335.23,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1067,
+      "customer_id": 77,
+      "order_date": "2024-02-03",
+      "status": "Shipped",
+      "quantity": 1,
+      "unit_price": 106.19,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1068,
+      "customer_id": 38,
+      "order_date": "2024-02-04",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 8.83,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1069,
+      "customer_id": 49,
+      "order_date": "2024-02-04",
+      "status": "PENDING",
+      "quantity": 9,
+      "unit_price": 281.57,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1070,
+      "customer_id": 111,
+      "order_date": "2024-02-05",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 14.28,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1071,
+      "customer_id": 55,
+      "order_date": "2024-02-05",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 148.31,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1072,
+      "customer_id": 22,
+      "order_date": "2024-02-06",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 48.62,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1073,
+      "customer_id": 76,
+      "order_date": "2024-02-06",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 43.93,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1074,
+      "customer_id": 29,
+      "order_date": "2024-02-07",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 42.81,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1075,
+      "customer_id": 25,
+      "order_date": "2024-02-07",
+      "status": "delivered",
+      "quantity": 6,
+      "unit_price": 365.05,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1076,
+      "customer_id": 19,
+      "order_date": "2024-02-08",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 90.88,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1077,
+      "customer_id": 23,
+      "order_date": "2024-02-08",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 378.45,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1078,
+      "customer_id": 83,
+      "order_date": "2024-02-09",
+      "status": "delivered",
+      "quantity": 6,
+      "unit_price": 79.72,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1079,
+      "customer_id": 81,
+      "order_date": "2024-02-09",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 297.75,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1080,
+      "customer_id": 40,
+      "order_date": "2024-02-10",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 23.62,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1081,
+      "customer_id": 83,
+      "order_date": "2024-02-10",
+      "status": "Shipped",
+      "quantity": 10,
+      "unit_price": 299.07,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1082,
+      "customer_id": 71,
+      "order_date": "2024-02-11",
+      "status": "Shipped",
+      "quantity": 8,
+      "unit_price": 454.98,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1083,
+      "customer_id": 61,
+      "order_date": "2024-02-11",
+      "status": "PENDING",
+      "quantity": 1,
+      "unit_price": 228.01,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1084,
+      "customer_id": 65,
+      "order_date": "2024-02-12",
+      "status": "PENDING",
+      "quantity": 1,
+      "unit_price": 127.63,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1085,
+      "customer_id": 67,
+      "order_date": "2024-02-12",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 189.56,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1086,
+      "customer_id": 100,
+      "order_date": "2024-02-13",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": 30.92,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1087,
+      "customer_id": 13,
+      "order_date": "2024-02-13",
+      "status": " Cancelled ",
+      "quantity": 5,
+      "unit_price": 129.74,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1088,
+      "customer_id": 75,
+      "order_date": "2024-02-14",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 158.56,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1089,
+      "customer_id": 91,
+      "order_date": "2024-02-14",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 281.67,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1090,
+      "customer_id": 90,
+      "order_date": "2024-02-15",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 256.7,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1091,
+      "customer_id": 24,
+      "order_date": "2024-02-15",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 474.1,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1092,
+      "customer_id": 18,
+      "order_date": "2024-02-16",
+      "status": "PENDING",
+      "quantity": 2,
+      "unit_price": 151.42,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1093,
+      "customer_id": 107,
+      "order_date": "2024-02-16",
+      "status": "Shipped",
+      "quantity": 6,
+      "unit_price": 438.81,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1094,
+      "customer_id": 20,
+      "order_date": "2024-02-17",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 416.52,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1095,
+      "customer_id": 6,
+      "order_date": "2024-02-17",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 339.8,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1096,
+      "customer_id": 37,
+      "order_date": "2024-02-18",
+      "status": " Cancelled ",
+      "quantity": 4,
+      "unit_price": 269.34,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1097,
+      "customer_id": 48,
+      "order_date": "2024-02-18",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 385.87,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1098,
+      "customer_id": 54,
+      "order_date": "2024-02-19",
+      "status": "PENDING",
+      "quantity": 4,
+      "unit_price": 401.62,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1099,
+      "customer_id": 83,
+      "order_date": "2024-02-19",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 279.5,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1100,
+      "customer_id": 109,
+      "order_date": "2024-02-20",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 46.52,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1101,
+      "customer_id": 116,
+      "order_date": "2024-02-20",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 50.4,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1102,
+      "customer_id": 120,
+      "order_date": "2024-02-21",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 31.36,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1103,
+      "customer_id": 11,
+      "order_date": "2024-02-21",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 18.95,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1104,
+      "customer_id": 43,
+      "order_date": "2024-02-22",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 23.96,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1105,
+      "customer_id": 98,
+      "order_date": "2024-02-22",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 309.6,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1106,
+      "customer_id": 28,
+      "order_date": "2024-02-23",
+      "status": "PENDING",
+      "quantity": 9,
+      "unit_price": 470.41,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1107,
+      "customer_id": 31,
+      "order_date": "2024-02-23",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 28.64,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1108,
+      "customer_id": 59,
+      "order_date": "2024-02-24",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 419.16,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1109,
+      "customer_id": 3,
+      "order_date": "2024-02-24",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 149.18,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1110,
+      "customer_id": 31,
+      "order_date": "2024-02-25",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 333.86,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1111,
+      "customer_id": 9,
+      "order_date": "2024-02-25",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 437.3,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1112,
+      "customer_id": 48,
+      "order_date": "2024-02-26",
+      "status": "delivered",
+      "quantity": 1,
+      "unit_price": 181.76,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1113,
+      "customer_id": 94,
+      "order_date": "2024-02-26",
+      "status": "Shipped",
+      "quantity": 10,
+      "unit_price": 368.92,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1114,
+      "customer_id": 46,
+      "order_date": "2024-02-27",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 416.04,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1115,
+      "customer_id": 81,
+      "order_date": "2024-02-27",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 36.23,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1116,
+      "customer_id": 26,
+      "order_date": "2024-02-28",
+      "status": "Shipped",
+      "quantity": 4,
+      "unit_price": 443.47,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1117,
+      "customer_id": 51,
+      "order_date": "2024-02-28",
+      "status": " Cancelled ",
+      "quantity": 5,
+      "unit_price": 23.13,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1118,
+      "customer_id": 111,
+      "order_date": "2024-02-29",
+      "status": "Shipped",
+      "quantity": 6,
+      "unit_price": 140.24,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1119,
+      "customer_id": 96,
+      "order_date": "2024-02-29",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 172.82,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1120,
+      "customer_id": 64,
+      "order_date": "2024-03-01",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 137.03,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1121,
+      "customer_id": 11,
+      "order_date": "2024-03-01",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 497.57,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1122,
+      "customer_id": 42,
+      "order_date": "2024-03-02",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 167.32,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1123,
+      "customer_id": 78,
+      "order_date": "2024-03-02",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 346.43,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1124,
+      "customer_id": 94,
+      "order_date": "2024-03-03",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": 499.08,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1125,
+      "customer_id": 10,
+      "order_date": "2024-03-03",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 258.98,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1126,
+      "customer_id": 109,
+      "order_date": "2024-03-04",
+      "status": " Cancelled ",
+      "quantity": 1,
+      "unit_price": 67.48,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1127,
+      "customer_id": 47,
+      "order_date": "2024-03-04",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 21.03,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1128,
+      "customer_id": 48,
+      "order_date": "2024-03-05",
+      "status": "delivered",
+      "quantity": 8,
+      "unit_price": 382.73,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1129,
+      "customer_id": 51,
+      "order_date": "2024-03-05",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 128.56,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1130,
+      "customer_id": 24,
+      "order_date": "2024-03-06",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 196.56,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1131,
+      "customer_id": 91,
+      "order_date": "2024-03-06",
+      "status": " Cancelled ",
+      "quantity": 4,
+      "unit_price": 498.2,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1132,
+      "customer_id": 26,
+      "order_date": "2024-03-07",
+      "status": "Shipped",
+      "quantity": 3,
+      "unit_price": 427.15,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1133,
+      "customer_id": 57,
+      "order_date": "2024-03-07",
+      "status": "Shipped",
+      "quantity": 6,
+      "unit_price": 335.58,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1134,
+      "customer_id": 38,
+      "order_date": "2024-03-08",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 357.35,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1135,
+      "customer_id": 29,
+      "order_date": "2024-03-08",
+      "status": "Shipped",
+      "quantity": 4,
+      "unit_price": 397.07,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1136,
+      "customer_id": 47,
+      "order_date": "2024-03-09",
+      "status": "delivered",
+      "quantity": 8,
+      "unit_price": 402.81,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1137,
+      "customer_id": 9,
+      "order_date": "2024-03-09",
+      "status": "delivered",
+      "quantity": 7,
+      "unit_price": 499.8,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1138,
+      "customer_id": 99,
+      "order_date": "2024-03-10",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 41.51,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1139,
+      "customer_id": 58,
+      "order_date": "2024-03-10",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 175.53,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1140,
+      "customer_id": 65,
+      "order_date": "2024-03-11",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 261.46,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1141,
+      "customer_id": 42,
+      "order_date": "2024-03-11",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 474.0,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1142,
+      "customer_id": 26,
+      "order_date": "2024-03-12",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 314.39,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1143,
+      "customer_id": 22,
+      "order_date": "2024-03-12",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 331.07,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1144,
+      "customer_id": 106,
+      "order_date": "2024-03-13",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 27.5,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1145,
+      "customer_id": 99,
+      "order_date": "2024-03-13",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 321.3,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1146,
+      "customer_id": 38,
+      "order_date": "2024-03-14",
+      "status": "delivered",
+      "quantity": 8,
+      "unit_price": 126.21,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1147,
+      "customer_id": 10,
+      "order_date": "2024-03-14",
+      "status": "Shipped",
+      "quantity": 3,
+      "unit_price": 222.6,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1148,
+      "customer_id": 44,
+      "order_date": "2024-03-15",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 431.44,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1149,
+      "customer_id": 52,
+      "order_date": "2024-03-15",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 259.92,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1150,
+      "customer_id": 60,
+      "order_date": "2024-03-16",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 227.55,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1151,
+      "customer_id": 38,
+      "order_date": "2024-03-16",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 211.98,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1152,
+      "customer_id": 93,
+      "order_date": "2024-03-17",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 382.75,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1153,
+      "customer_id": 64,
+      "order_date": "2024-03-17",
+      "status": "delivered",
+      "quantity": 8,
+      "unit_price": 16.47,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1154,
+      "customer_id": 31,
+      "order_date": "2024-03-18",
+      "status": "PENDING",
+      "quantity": 10,
+      "unit_price": 179.68,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1155,
+      "customer_id": 77,
+      "order_date": "2024-03-18",
+      "status": " Cancelled ",
+      "quantity": 5,
+      "unit_price": 270.66,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1156,
+      "customer_id": 113,
+      "order_date": "2024-03-19",
+      "status": "delivered",
+      "quantity": 6,
+      "unit_price": 383.11,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1157,
+      "customer_id": 7,
+      "order_date": "2024-03-19",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 278.85,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1158,
+      "customer_id": 58,
+      "order_date": "2024-03-20",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": 341.8,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1159,
+      "customer_id": 51,
+      "order_date": "2024-03-20",
+      "status": "delivered",
+      "quantity": 6,
+      "unit_price": 281.13,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1160,
+      "customer_id": 78,
+      "order_date": "2024-03-21",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 24.93,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1161,
+      "customer_id": 43,
+      "order_date": "2024-03-21",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 231.21,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1162,
+      "customer_id": 41,
+      "order_date": "2024-03-22",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 495.35,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1163,
+      "customer_id": 65,
+      "order_date": "2024-03-22",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 153.4,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1164,
+      "customer_id": 87,
+      "order_date": "2024-03-23",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 293.93,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1165,
+      "customer_id": 34,
+      "order_date": "2024-03-23",
+      "status": "PENDING",
+      "quantity": 1,
+      "unit_price": 293.84,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1166,
+      "customer_id": 93,
+      "order_date": "2024-03-24",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 411.72,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1167,
+      "customer_id": 90,
+      "order_date": "2024-03-24",
+      "status": "Shipped",
+      "quantity": 4,
+      "unit_price": 14.37,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1168,
+      "customer_id": 53,
+      "order_date": "2024-03-25",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 253.4,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1169,
+      "customer_id": 8,
+      "order_date": "2024-03-25",
+      "status": "PENDING",
+      "quantity": 9,
+      "unit_price": 107.63,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1170,
+      "customer_id": 68,
+      "order_date": "2024-03-26",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 478.56,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1171,
+      "customer_id": 70,
+      "order_date": "2024-03-26",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 306.99,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1172,
+      "customer_id": 72,
+      "order_date": "2024-03-27",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 471.04,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1173,
+      "customer_id": 27,
+      "order_date": "2024-03-27",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 242.5,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1174,
+      "customer_id": 74,
+      "order_date": "2024-03-28",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 410.1,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1175,
+      "customer_id": 37,
+      "order_date": "2024-03-28",
+      "status": "Shipped",
+      "quantity": 6,
+      "unit_price": 462.38,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1176,
+      "customer_id": 28,
+      "order_date": "2024-03-29",
+      "status": "PENDING",
+      "quantity": 9,
+      "unit_price": 139.21,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1177,
+      "customer_id": 79,
+      "order_date": "2024-03-29",
+      "status": "PENDING",
+      "quantity": 4,
+      "unit_price": 30.13,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1178,
+      "customer_id": 7,
+      "order_date": "2024-03-30",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 168.5,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1179,
+      "customer_id": 99,
+      "order_date": "2024-03-30",
+      "status": "PENDING",
+      "quantity": 1,
+      "unit_price": 482.44,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1180,
+      "customer_id": 120,
+      "order_date": "2024-03-31",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 327.02,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1181,
+      "customer_id": 83,
+      "order_date": "2024-03-31",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 327.89,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1182,
+      "customer_id": 93,
+      "order_date": "2024-04-01",
+      "status": "Shipped",
+      "quantity": 3,
+      "unit_price": 211.85,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1183,
+      "customer_id": 101,
+      "order_date": "2024-04-01",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 468.62,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1184,
+      "customer_id": 39,
+      "order_date": "2024-04-02",
+      "status": "Shipped",
+      "quantity": 6,
+      "unit_price": 145.86,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1185,
+      "customer_id": 60,
+      "order_date": "2024-04-02",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 405.36,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1186,
+      "customer_id": 59,
+      "order_date": "2024-04-03",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 11.97,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1187,
+      "customer_id": 87,
+      "order_date": "2024-04-03",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 307.42,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1188,
+      "customer_id": 42,
+      "order_date": "2024-04-04",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 336.28,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1189,
+      "customer_id": 42,
+      "order_date": "2024-04-04",
+      "status": "PENDING",
+      "quantity": 1,
+      "unit_price": 134.09,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1190,
+      "customer_id": 43,
+      "order_date": "2024-04-05",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": 362.83,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1191,
+      "customer_id": 47,
+      "order_date": "2024-04-05",
+      "status": "PENDING",
+      "quantity": 1,
+      "unit_price": 335.55,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1192,
+      "customer_id": 52,
+      "order_date": "2024-04-06",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 321.16,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1193,
+      "customer_id": 29,
+      "order_date": "2024-04-06",
+      "status": "PENDING",
+      "quantity": 3,
+      "unit_price": 241.7,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1194,
+      "customer_id": 48,
+      "order_date": "2024-04-07",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 456.83,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1195,
+      "customer_id": 97,
+      "order_date": "2024-04-07",
+      "status": "Shipped",
+      "quantity": 9,
+      "unit_price": 226.14,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1196,
+      "customer_id": 15,
+      "order_date": "2024-04-08",
+      "status": "Shipped",
+      "quantity": 9,
+      "unit_price": 451.93,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1197,
+      "customer_id": 20,
+      "order_date": "2024-04-08",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 427.97,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1198,
+      "customer_id": 27,
+      "order_date": "2024-04-09",
+      "status": " Cancelled ",
+      "quantity": 2,
+      "unit_price": 449.95,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1199,
+      "customer_id": 17,
+      "order_date": "2024-04-09",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 284.14,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1200,
+      "customer_id": 93,
+      "order_date": "2024-04-10",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 130.96,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1201,
+      "customer_id": 75,
+      "order_date": "2024-04-10",
+      "status": "Shipped",
+      "quantity": 1,
+      "unit_price": 214.73,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1202,
+      "customer_id": 120,
+      "order_date": "2024-04-11",
+      "status": "Shipped",
+      "quantity": 8,
+      "unit_price": 20.71,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1203,
+      "customer_id": 99,
+      "order_date": "2024-04-11",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 496.46,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1204,
+      "customer_id": 49,
+      "order_date": "2024-04-12",
+      "status": "Shipped",
+      "quantity": 9,
+      "unit_price": 70.83,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1205,
+      "customer_id": 69,
+      "order_date": "2024-04-12",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 68.04,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1206,
+      "customer_id": 39,
+      "order_date": "2024-04-13",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 214.94,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1207,
+      "customer_id": 59,
+      "order_date": "2024-04-13",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 141.45,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1208,
+      "customer_id": 54,
+      "order_date": "2024-04-14",
+      "status": "Shipped",
+      "quantity": 4,
+      "unit_price": 107.01,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1209,
+      "customer_id": 58,
+      "order_date": "2024-04-14",
+      "status": "Shipped",
+      "quantity": 4,
+      "unit_price": 371.57,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1210,
+      "customer_id": 70,
+      "order_date": "2024-04-15",
+      "status": "PENDING",
+      "quantity": 1,
+      "unit_price": 74.37,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1211,
+      "customer_id": 74,
+      "order_date": "2024-04-15",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": 300.97,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1212,
+      "customer_id": 113,
+      "order_date": "2024-04-16",
+      "status": "PENDING",
+      "quantity": 9,
+      "unit_price": 114.42,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1213,
+      "customer_id": 72,
+      "order_date": "2024-04-16",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 280.15,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1214,
+      "customer_id": 86,
+      "order_date": "2024-04-17",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 162.77,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1215,
+      "customer_id": 39,
+      "order_date": "2024-04-17",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 378.44,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1216,
+      "customer_id": 39,
+      "order_date": "2024-04-18",
+      "status": "PENDING",
+      "quantity": 8,
+      "unit_price": 457.8,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1217,
+      "customer_id": 68,
+      "order_date": "2024-04-18",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 125.21,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1218,
+      "customer_id": 11,
+      "order_date": "2024-04-19",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 50.77,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1219,
+      "customer_id": 49,
+      "order_date": "2024-04-19",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 98.14,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1220,
+      "customer_id": 112,
+      "order_date": "2024-04-20",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 478.72,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1221,
+      "customer_id": 95,
+      "order_date": "2024-04-20",
+      "status": "Shipped",
+      "quantity": 8,
+      "unit_price": 457.65,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1222,
+      "customer_id": 71,
+      "order_date": "2024-04-21",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 193.43,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1223,
+      "customer_id": 47,
+      "order_date": "2024-04-21",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 53.81,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1224,
+      "customer_id": 48,
+      "order_date": "2024-04-22",
+      "status": "delivered",
+      "quantity": 7,
+      "unit_price": 27.63,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1225,
+      "customer_id": 3,
+      "order_date": "2024-04-22",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 467.71,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1226,
+      "customer_id": 26,
+      "order_date": "2024-04-23",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 193.02,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1227,
+      "customer_id": 84,
+      "order_date": "2024-04-23",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 382.86,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1228,
+      "customer_id": 95,
+      "order_date": "2024-04-24",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 88.28,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1229,
+      "customer_id": 93,
+      "order_date": "2024-04-24",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 458.87,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1230,
+      "customer_id": 108,
+      "order_date": "2024-04-25",
+      "status": "Shipped",
+      "quantity": 1,
+      "unit_price": 383.35,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1231,
+      "customer_id": 30,
+      "order_date": "2024-04-25",
+      "status": "Shipped",
+      "quantity": 3,
+      "unit_price": 9.53,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1232,
+      "customer_id": 80,
+      "order_date": "2024-04-26",
+      "status": " Cancelled ",
+      "quantity": 8,
+      "unit_price": 12.79,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1233,
+      "customer_id": 68,
+      "order_date": "2024-04-26",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 488.85,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1234,
+      "customer_id": 87,
+      "order_date": "2024-04-27",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 57.97,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1235,
+      "customer_id": 31,
+      "order_date": "2024-04-27",
+      "status": "PENDING",
+      "quantity": 10,
+      "unit_price": 265.6,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1236,
+      "customer_id": 11,
+      "order_date": "2024-04-28",
+      "status": "delivered",
+      "quantity": 7,
+      "unit_price": 232.2,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1237,
+      "customer_id": 39,
+      "order_date": "2024-04-28",
+      "status": "Shipped",
+      "quantity": 1,
+      "unit_price": 51.28,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1238,
+      "customer_id": 61,
+      "order_date": "2024-04-29",
+      "status": "Shipped",
+      "quantity": 1,
+      "unit_price": 352.91,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1239,
+      "customer_id": 83,
+      "order_date": "2024-04-29",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": 488.78,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1240,
+      "customer_id": 30,
+      "order_date": "2024-04-30",
+      "status": "PENDING",
+      "quantity": 10,
+      "unit_price": 240.37,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1241,
+      "customer_id": 119,
+      "order_date": "2024-04-30",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 283.94,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1242,
+      "customer_id": 3,
+      "order_date": "2024-05-01",
+      "status": "PENDING",
+      "quantity": 10,
+      "unit_price": 76.37,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1243,
+      "customer_id": 21,
+      "order_date": "2024-05-01",
+      "status": "PENDING",
+      "quantity": 10,
+      "unit_price": 418.15,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1244,
+      "customer_id": 43,
+      "order_date": "2024-05-02",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 396.3,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1245,
+      "customer_id": 45,
+      "order_date": "2024-05-02",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 221.36,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1246,
+      "customer_id": 99,
+      "order_date": "2024-05-03",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 19.66,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1247,
+      "customer_id": 30,
+      "order_date": "2024-05-03",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 470.87,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1248,
+      "customer_id": 75,
+      "order_date": "2024-05-04",
+      "status": " Cancelled ",
+      "quantity": 2,
+      "unit_price": 387.22,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1249,
+      "customer_id": 10,
+      "order_date": "2024-05-04",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 81.34,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1250,
+      "customer_id": 41,
+      "order_date": "2024-05-05",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 50.3,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1251,
+      "customer_id": 98,
+      "order_date": "2024-05-05",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 70.59,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1252,
+      "customer_id": 72,
+      "order_date": "2024-05-06",
+      "status": " Cancelled ",
+      "quantity": 2,
+      "unit_price": 18.0,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1253,
+      "customer_id": 77,
+      "order_date": "2024-05-06",
+      "status": "delivered",
+      "quantity": 7,
+      "unit_price": 11.11,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1254,
+      "customer_id": 93,
+      "order_date": "2024-05-07",
+      "status": "PENDING",
+      "quantity": 10,
+      "unit_price": 262.95,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1255,
+      "customer_id": 35,
+      "order_date": "2024-05-07",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 249.1,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1256,
+      "customer_id": 36,
+      "order_date": "2024-05-08",
+      "status": " Cancelled ",
+      "quantity": 5,
+      "unit_price": 244.69,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1257,
+      "customer_id": 32,
+      "order_date": "2024-05-08",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 310.25,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1258,
+      "customer_id": 39,
+      "order_date": "2024-05-09",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 169.45,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1259,
+      "customer_id": 43,
+      "order_date": "2024-05-09",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 72.38,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1260,
+      "customer_id": 26,
+      "order_date": "2024-05-10",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 92.93,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1261,
+      "customer_id": 95,
+      "order_date": "2024-05-10",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 392.08,
+      "shipping": {
+        "city": "Berlin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1262,
+      "customer_id": 105,
+      "order_date": "2024-05-11",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 61.37,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1263,
+      "customer_id": 24,
+      "order_date": "2024-05-11",
+      "status": "Shipped",
+      "quantity": 8,
+      "unit_price": 471.77,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1264,
+      "customer_id": 107,
+      "order_date": "2024-05-12",
+      "status": "Shipped",
+      "quantity": 7,
+      "unit_price": 338.12,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1265,
+      "customer_id": 31,
+      "order_date": "2024-05-12",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 359.04,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1266,
+      "customer_id": 77,
+      "order_date": "2024-05-13",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 203.4,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1267,
+      "customer_id": 102,
+      "order_date": "2024-05-13",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 298.94,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1268,
+      "customer_id": 85,
+      "order_date": "2024-05-14",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 325.26,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1269,
+      "customer_id": 87,
+      "order_date": "2024-05-14",
+      "status": " Cancelled ",
+      "quantity": 6,
+      "unit_price": 483.03,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1270,
+      "customer_id": 13,
+      "order_date": "2024-05-15",
+      "status": "delivered",
+      "quantity": 4,
+      "unit_price": 257.78,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1271,
+      "customer_id": 51,
+      "order_date": "2024-05-15",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 346.77,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1272,
+      "customer_id": 62,
+      "order_date": "2024-05-16",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 210.91,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1273,
+      "customer_id": 19,
+      "order_date": "2024-05-16",
+      "status": "delivered",
+      "quantity": 5,
+      "unit_price": 174.82,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1274,
+      "customer_id": 45,
+      "order_date": "2024-05-17",
+      "status": " Cancelled ",
+      "quantity": 2,
+      "unit_price": 221.89,
+      "shipping": {
+        "city": "Austin",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1275,
+      "customer_id": 39,
+      "order_date": "2024-05-17",
+      "status": "Shipped",
+      "quantity": 2,
+      "unit_price": 16.18,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1276,
+      "customer_id": 87,
+      "order_date": "2024-05-18",
+      "status": "PENDING",
+      "quantity": 4,
+      "unit_price": 260.42,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1277,
+      "customer_id": 55,
+      "order_date": "2024-05-18",
+      "status": " Cancelled ",
+      "quantity": 4,
+      "unit_price": 399.89,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1278,
+      "customer_id": 85,
+      "order_date": "2024-05-19",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 19.45,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1279,
+      "customer_id": 55,
+      "order_date": "2024-05-19",
+      "status": " Cancelled ",
+      "quantity": 1,
+      "unit_price": 353.84,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1280,
+      "customer_id": 104,
+      "order_date": "2024-05-20",
+      "status": "Shipped",
+      "quantity": 10,
+      "unit_price": 55.37,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1281,
+      "customer_id": 26,
+      "order_date": "2024-05-20",
+      "status": " Cancelled ",
+      "quantity": 2,
+      "unit_price": 134.86,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1282,
+      "customer_id": 41,
+      "order_date": "2024-05-21",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 199.31,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1283,
+      "customer_id": 109,
+      "order_date": "2024-05-21",
+      "status": " Cancelled ",
+      "quantity": 10,
+      "unit_price": 90.4,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1284,
+      "customer_id": 11,
+      "order_date": "2024-05-22",
+      "status": "PENDING",
+      "quantity": 6,
+      "unit_price": 63.34,
+      "shipping": {
+        "city": "Berlin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1285,
+      "customer_id": 48,
+      "order_date": "2024-05-22",
+      "status": "PENDING",
+      "quantity": 9,
+      "unit_price": 197.29,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1286,
+      "customer_id": 55,
+      "order_date": "2024-05-23",
+      "status": "PENDING",
+      "quantity": 8,
+      "unit_price": 319.57,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1287,
+      "customer_id": 63,
+      "order_date": "2024-05-23",
+      "status": "delivered",
+      "quantity": 3,
+      "unit_price": 97.61,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1288,
+      "customer_id": 111,
+      "order_date": "2024-05-24",
+      "status": "delivered",
+      "quantity": 1,
+      "unit_price": 244.88,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1289,
+      "customer_id": 65,
+      "order_date": "2024-05-24",
+      "status": " Cancelled ",
+      "quantity": 7,
+      "unit_price": 343.92,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1290,
+      "customer_id": 63,
+      "order_date": "2024-05-25",
+      "status": "PENDING",
+      "quantity": 2,
+      "unit_price": 284.87,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1291,
+      "customer_id": 36,
+      "order_date": "2024-05-25",
+      "status": "PENDING",
+      "quantity": 9,
+      "unit_price": 147.89,
+      "shipping": {
+        "city": "Austin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1292,
+      "customer_id": 99,
+      "order_date": "2024-05-26",
+      "status": " Cancelled ",
+      "quantity": 9,
+      "unit_price": 257.85,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1293,
+      "customer_id": 106,
+      "order_date": "2024-05-26",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 412.19,
+      "shipping": {
+        "city": "Pune",
+        "country": "US"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1294,
+      "customer_id": 70,
+      "order_date": "2024-05-27",
+      "status": "PENDING",
+      "quantity": 7,
+      "unit_price": 55.7,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1295,
+      "customer_id": 58,
+      "order_date": "2024-05-27",
+      "status": "delivered",
+      "quantity": 6,
+      "unit_price": 431.79,
+      "shipping": {
+        "city": "Pune",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1296,
+      "customer_id": 100,
+      "order_date": "2024-05-28",
+      "status": "PENDING",
+      "quantity": 4,
+      "unit_price": 406.3,
+      "shipping": {
+        "city": "Berlin",
+        "country": "US"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1297,
+      "customer_id": 81,
+      "order_date": "2024-05-28",
+      "status": " Cancelled ",
+      "quantity": 3,
+      "unit_price": 309.99,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1298,
+      "customer_id": 73,
+      "order_date": "2024-05-29",
+      "status": "delivered",
+      "quantity": 9,
+      "unit_price": 144.14,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "DE"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    },
+    {
+      "order_id": 1299,
+      "customer_id": 38,
+      "order_date": "2024-05-29",
+      "status": "delivered",
+      "quantity": 10,
+      "unit_price": 137.33,
+      "shipping": {
+        "city": "Pune",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "upi"
+      }
+    },
+    {
+      "order_id": 1300,
+      "customer_id": 118,
+      "order_date": "2024-05-30",
+      "status": "Shipped",
+      "quantity": 5,
+      "unit_price": 434.19,
+      "shipping": {
+        "city": "Mumbai",
+        "country": "US"
+      },
+      "payment": {
+        "method": "card"
+      }
+    },
+    {
+      "order_id": 1006,
+      "customer_id": 17,
+      "order_date": "2024-01-04",
+      "status": "delivered",
+      "quantity": 2,
+      "unit_price": 437.72,
+      "shipping": {
+        "city": "Austin",
+        "country": "IN"
+      },
+      "payment": {
+        "method": "cod"
+      }
+    }
+  ]
+}
